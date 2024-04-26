@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <div>
+        <div id="navbar">
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top  "
+                style="background-color: rgba(17, 0, 255, 0.5);">
+                <div class="container-fluid">
+                    <a style="color: white;" class="navbar-brand" href="#">Photography Portfolio</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a style="color: white;" class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a style="color: white;" class="nav-link " href="#Portfolio">
+                                    Portfolio
+                                </a>
+                                <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul> -->
+                            </li>
+                            <li class="nav-item">
+                                <a style="color: white;" class="nav-link" href="#Testimonial">Testimonials</a>
+                            </li>
+                            <li class="nav-item">
+                                <a style="color: white;" class="nav-link" href="#About">About</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a style="color: white;" class="nav-link" href="#Contact">Contact</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="carousel_main_div">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img class="carousel_img_collection" src="./Assets/1920x1200-cool-santa-claus-4k_1630066939.jpg"
+                            class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img class="carousel_img_collection" src="./Assets/1920x1200-Dreamy Landscape732553918.jpg"
+                            class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img class="carousel_img_collection"
+                            src="./Assets/1920x1440-Mini Electric Concept 2017427058949.jpg" class="d-block w-100"
+                            alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="carousel_img_collection" src="./Assets/1920x1200-orange-tulips-hd-4k_1695896244.jpg"
+                            class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div id="Portfolio" class="portfolio_section_div   text-center">
+                <div>
+                    <h1 class="gallery_section_div">My Gallery Section</h1>
+                </div>
+                <!-- Gallery -->
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                        <img src="./Assets/boat.webp"
+                            class="w-100 shadow-1-strong rounded mb-4 my_gallery_img_tag_section"
+                            alt="Boat on Calm Water" />
+
+                        <img src="./Assets/mountains1.webp"
+                            class="w-100 shadow-1-strong rounded mb-4 my_gallery_img_tag_section"
+                            alt="Wintry Mountain Landscape" />
+                    </div>
+
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                        <img src="./Assets/mountains2.webp"
+                            class="w-100 shadow-1-strong rounded mb-4 my_gallery_img_tag_section"
+                            alt="Mountains in the Clouds" />
+
+                        <img src="./Assets/boat.webp"
+                            class="w-100 shadow-1-strong rounded mb-4 my_gallery_img_tag_section"
+                            alt="Boat on Calm Water" />
+                    </div>
+
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                        <img src="./Assets/sunset.webp"
+                            class="w-100 shadow-1-strong rounded mb-4 my_gallery_img_tag_section" alt="Waves at Sea" />
+
+                        <img src="./Assets/mountains.webp"
+                            class="w-100 shadow-1-strong rounded mb-4 my_gallery_img_tag_section"
+                            alt="Yosemite National Park" />
+                    </div>
+                </div>
+                <!-- Gallery -->
+
+            </div>
+            <div id="Testimonial">
+                <div class="row testimonial_section_div">
+
+                    <h1>Testimonial Section</h1>
+
+                    <div class="col-md-6 ">
+                        <div class="testimonials_section_header_div">
+                            Testimonials
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati rerum, quo
+                                temporibus reprehenderit ullam blanditiis ex sequi eaque sed iusto dicta voluptatum
+                                quae, eligendi modi optio. Maiores eligendi perspiciatis dolore.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div>
+                            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="10000">
+                                        <img src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp"
+                                            class="d-block w-100" alt="Wild Landscape" />
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                        <img src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
+                                            class="d-block w-100" alt="Camera" />
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
+                                            class="d-block w-100" alt="Exotic Fruits" />
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about_section_main_div_tag" id="About">
+                <div>
+                    <div class="about_section_img_tag_h1_tag">
+                        <h1>Do it your way. Elope in your Dream location</h1>
+                    </div>
+                    <!-- <div><button type="button" class="about_section_img_tag_btn_tag">View more ...</button></div> -->
+                </div>
+                <div>
+                    <img class="about_section_img_tag" src="./Assets/beach.jpg">
+                </div>
+                <div class="articles_main_div">
+                    <div class="h1_tag_for_article">
+                        <h1>Tourism in Andman and Nicobar island</h1>
+                    </div>
+                </div>
+                <div class="p_tag_for_article_details">
+                    <p class="article_section_p_tag"> a serene archipelago in <span style="font-weight: bold;">Bay of
+                            Bengal</span>, are renowned for their picturesque white-sand beaches, vibrant coral
+                        reefs, and dense rainforests. Tourists flock here to engage in water sports, explore the rich
+                        marine life through snorkeling and scuba diving, and uncover the mysterious islands.</p>
+                </div>
+                <div class="article_section_btn_tag_div"><button class="btn_tag_for_article_section btn btn-primary"
+                        type="button">Read more...</button></div>
+
+
+            </div>
+            <div class="multi_image_carousel_section">
+                <div>
+                    <div class="container text-center my-3">
+                        <div class="row mx-auto my-auto justify-content-center">
+                            <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="carousel-js-classes carousel-item active">
+                                        <div class="col-md-3">
+                                            <div class="card">
+                                                <div class="card-img">
+                                                    <img src="./Assets/1920x1200-cool-santa-claus-4k_1630066939.jpg"
+                                                        class="img-fluid">
+                                                </div>
+                                                <div class="card-img-overlay">Slide 1</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-js-classes carousel-item">
+                                        <div class="col-md-3">
+                                            <div class="card">
+                                                <div class="card-img">
+                                                    <img src="./Assets/1920x1200-Dreamy Landscape732553918.jpg"
+                                                        class="img-fluid">
+                                                </div>
+                                                <div class="card-img-overlay">Slide 2</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-js-classes carousel-item">
+                                        <div class="col-md-3">
+                                            <div class="card">
+                                                <div class="card-img">
+                                                    <img src="./Assets/1920x1200-orange-tulips-hd-4k_1695896244.jpg"
+                                                        class="img-fluid">
+                                                </div>
+                                                <div class="card-img-overlay">Slide 3</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-js-classes carousel-item">
+                                        <div class="col-md-3">
+                                            <div class="card">
+                                                <div class="card-img">
+                                                    <img src="./Assets/1920x1440-Mini Electric Concept 2017427058949.jpg"
+                                                        class="img-fluid">
+                                                </div>
+                                                <div class="card-img-overlay">Slide 4</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-js-classes carousel-item">
+                                        <div class="col-md-3">
+                                            <div class="card">
+                                                <div class="card-img">
+                                                    <img src="./Assets/boat.webp"
+                                                        class="img-fluid">
+                                                </div>
+                                                <div class="card-img-overlay">Slide 5</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-js-classes carousel-item">
+                                        <div class="col-md-3">
+                                            <div class="card">
+                                                <div class="card-img">
+                                                    <img src="./Assets/Carousel1.jpg"
+                                                        class="img-fluid">
+                                                </div>
+                                                <div class="card-img-overlay">Slide 6</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel"
+                                    role="button" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                </a>
+                                <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel"
+                                    role="button" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="slogan_tag">
+                    <div class="slogan_h1_tag"><h1 class="slogan_h1">"Do not follow where the path may lead. Go instead where there is no path and leave a trail."</h1></div>
+                    <div class="slogan_author_tag"><p class="slogan_author_p">RALPH WALDO EMERSON</p></div>
+                </div>
+            </div>
+            <div class="contact_section_main_tag" id="Contact">
+                
+                <div class="contact_secondary_tag" style="padding: 3%;">
+                    <div class="card mb-3"   >
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="./Assets/diving_2.jpg" class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <p>Behind the Camera Lens...</p>
+                              <h1 class="card-title" style="font-family: cursive;">Welcome Friends, My name is Abhi...</h1>
+                              <h3 class="card-text" style="font-family: cursive;">
+                                "Capturing moments, creating memories". <br /> I Abhishek Singh, professional photographer extraordinaire, turning life's fleeting instants into timeless treasures.</h3>
+                                <div class="contact_me_section_btn_div_tag"><button class="contact-me-btn btn btn-dark" type="button">Contact Me.</button></div>
+                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div>
+            <div class="div_section_text_over_carousel">
+                <div>
+                    <h1 class="h1_tag_for_text_over_carousel">Photography for Adventurous Souls & Rebels At Heart</h1>
+                </div>
+                <div class="btn_with_text_over_carousel">
+                    <button type="button" class="btn btn-dark" data-mdb-ripple-init>Read More ...</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="./index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
